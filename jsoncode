@@ -1,0 +1,13 @@
+#### converting json data to python
+import json
+x='{"name":"john","age":"30","city":"newyork"}'
+y=json.loads(x)
+print(y["age"])
+
+
+
+#### converting  python data to json
+import json
+x={"name":"john","age":"30","city":"newyork"}
+y=json.dumps(x)
+print(y)
